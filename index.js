@@ -8,7 +8,8 @@ app.get('/', (req, res) => {
 })
 
 app.get('/prome', (req, res) => { 
-    res.sendFile('index.html', { root:__dirname + '/love/dist'})
+    //res.sendFile('index.html', { root:__dirname + '/love/dist'})
+    res.send("I didn't expect hm as reply!")
 })
 
 app.listen(port, () => {
